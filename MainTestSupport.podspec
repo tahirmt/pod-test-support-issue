@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "14.0"
   spec.source       = { :git => "http://notaurl.com", :tag => "#{spec.version}" }
   spec.dependency 'Main/Core'
-  spec.source_files  = "Sources/Main/**/*.swift"
+  spec.source_files  = "Sources/TestSupport/**/*.swift"
 
 end
